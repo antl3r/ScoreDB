@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ScoredbMainConfig(AppConfig):
+class ScoredbAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'scoredb_main'
+    name = 'scoredb_app'
